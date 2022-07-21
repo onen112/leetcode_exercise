@@ -5,6 +5,12 @@ public class day01 {
         towNum(new int[] { 1, 2, 3, 3, 3, 2, 2, 1 });
     }
 
+    /**
+     * 数组中两个数出现了奇数次，其他所有数都出现了偶数次
+     * 打印这两个数
+     * 
+     * @param arr
+     */
     public static void towNum(int... arr) {
         int eor = 0;
         for (int i : arr) {
